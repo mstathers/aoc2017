@@ -23,7 +23,7 @@ while True:
             biggestBlock = idx
 
     # zero out the biggest block
-    blocks[position] = 0
+    blocks[biggestBlock] = 0
 
     # Set current pos to that of the biggest block
     position = biggestBlock
